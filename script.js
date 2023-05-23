@@ -3,7 +3,7 @@ function callme(){
 	let element = document.createElement("div");
 	element.id = "browser-info";
 
-	element.innerText = `You are using ${navigator.appName} version ${appVersion}`;
+	element.innerText = `You are using ${navigator.appName} version ${navigator.appVersion}`;
 	document.body.append(element);
 
 }
